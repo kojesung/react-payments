@@ -404,4 +404,4 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
     display: flex;
     flex-direction: column;
     align-items: center;
-`;async function Ss(){}Ss().then(()=>{(0,v.createRoot)(document.getElementById(`root`)).render((0,R.jsx)(_.StrictMode,{children:(0,R.jsx)(On,{basename:`/react-payments`,children:(0,R.jsx)(bs,{})})}))});
+`;async function Ss(){let{worker:e}=await S(async()=>{let{worker:e}=await import(`./browser-C-huYZ6O.js`);return{worker:e}},[]);return e.start({serviceWorker:{url:`/react-payments/mockServiceWorker.js`}})}Ss().then(()=>{(0,v.createRoot)(document.getElementById(`root`)).render((0,R.jsx)(_.StrictMode,{children:(0,R.jsx)(On,{basename:`/react-payments`,children:(0,R.jsx)(bs,{})})}))});
